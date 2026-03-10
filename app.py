@@ -5,6 +5,7 @@ app = Flask(__name__)
 # data you want to display
 NAME = "Saket Sarvaiya"
 APP_ID = "2408838"
+AGE = 19
 
 @app.route("/")
 def index():
@@ -14,9 +15,12 @@ def index():
         <h1>Application Info</h1>
         <p><strong>Name:</strong> {{ name }}</p>
         <p><strong>AppID:</strong> {{ appid }}</p>
+        <p><strong>Age:</strong> {{ age }}</p>
         """,
         name=NAME,
         appid=APP_ID,
+        age=AGE
+
     )
 
 if __name__ == "__main__":
