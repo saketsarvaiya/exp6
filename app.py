@@ -6,6 +6,7 @@ app = Flask(__name__)
 NAME = "Saket Sarvaiya"
 APP_ID = "2408838"
 AGE = 19
+DIVISION = "Hadoop"
 
 @app.route("/")
 def index():
@@ -16,10 +17,12 @@ def index():
         <p><strong>Name:</strong> {{ name }}</p>
         <p><strong>AppID:</strong> {{ appid }}</p>
         <p><strong>Age:</strong> {{ age }}</p>
+        <p><strong>Division:</strong> {{ division }}</p>
         """,
         name=NAME,
         appid=APP_ID,
-        age=AGE
+        age=AGE,
+        division=DIVISION
 
     )
 
