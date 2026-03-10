@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saket Sarvaiya | Resume</title>
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f7fa;
+    color:#333;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:40px;
+}
+
+header{
+    border-bottom:2px solid #e5e5e5;
+    margin-bottom:25px;
+}
+
+h1{
+    margin:0;
+    font-size:32px;
+}
+
+.subtitle{
+    color:#555;
+    margin-bottom:10px;
+}
+
+.contact{
+    font-size:14px;
+    line-height:1.6;
+}
+
+.section{
+    margin-top:30px;
+}
+
+.section h2{
+    font-size:20px;
+    border-bottom:1px solid #ddd;
+    padding-bottom:5px;
+    margin-bottom:10px;
+}
+
+ul{
+    padding-left:18px;
+}
+
+li{
+    margin-bottom:6px;
+}
+
+.project{
+    margin-bottom:15px;
+}
+
+.project-title{
+    font-weight:bold;
+}
+
+.two-column{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+@media(max-width:800px){
+    .two-column{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Saket Sarvaiya</h1>
+<div class="subtitle">Second Year B.Tech Student</div>
+
+<div class="contact">
+Phone: 8779626863<br>
+Email: saket.sarvaiya.btech2028@atlasskilltech.university<br>
+Location: Mumbai, India<br>
+LinkedIn: linkedin.com/in/saket-sarvaiya
+</div>
+</header>
+
+<section class="section">
+<h2>Personal Profile</h2>
+<p>
+Second-year B.Tech student focused on applied machine learning and data-driven systems. 
+Experience building end-to-end ML pipelines involving data preprocessing, model development, 
+evaluation, and projects across domains including financial forecasting, recommendation engines, 
+and molecular property prediction. Interested in deep learning, graph-based methods, and scalable 
+data architectures, with hands-on exposure to cloud deployment, database integration, and real-world 
+model limitations such as overfitting and cold-start challenges.
+</p>
+</section>
+
+<div class="two-column">
+
+<section class="section">
+<h2>Skills</h2>
+<ul>
+<li>Data Preprocessing & Feature Engineering</li>
+<li>Model Evaluation</li>
+<li>Machine Learning & Deep Learning (LSTM, GNN, GAT)</li>
+<li>Time Series Analysis & Forecasting</li>
+<li>Graph-based Modeling & Recommendation Systems</li>
+<li>Databases (SQL + NoSQL)</li>
+<li>Object-Oriented Programming</li>
+<li>Backend Development</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Software / Tools</h2>
+<ul>
+<li>VSCode</li>
+<li>Python, Flask, Django, FastAPI, Streamlit</li>
+<li>Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</li>
+<li>TensorFlow, PyTorch (Torch Geometric)</li>
+<li>Git, GitHub</li>
+<li>Docker</li>
+<li>MySQL, PostgreSQL, SQLite</li>
+<li>Neo4j, FAISS</li>
+<li>RDKit</li>
+</ul>
+</section>
+
+</div>
+
+<section class="section">
+<h2>Projects</h2>
+
+<div class="project">
+<div class="project-title">Stock Price Prediction System using LSTM</div>
+<ul>
+<li>Built LSTM-based forecasting model for NIFTY 50 stock prices using historical OHLC time-series data.</li>
+<li>Implemented preprocessing, feature engineering, validation strategies, and regularization techniques.</li>
+<li>Used hyperparameter tuning, early stopping, and dropout to mitigate overfitting.</li>
+<li>Deployed an interactive inference interface using Streamlit Cloud.</li>
+</ul>
+</div>
+
+<div class="project">
+<div class="project-title">University Workflow Management System (Django)</div>
+<ul>
+<li>Developed role-based academic workflow platform for students, faculty, and administrators.</li>
+<li>Implemented authentication, assignment tracking, and course management.</li>
+<li>Used Django ORM and SQLite for backend data management.</li>
+</ul>
+</div>
+
+<div class="project">
+<div class="project-title">ADMET Property Prediction for Drug-like Molecules (GNN)</div>
+<ul>
+<li>Fine-tuned Graph Convolutional Network from MolCLR framework to predict ADMET properties.</li>
+<li>Benchmarked model on MoleculeNet datasets.</li>
+<li>Performed molecular preprocessing and graph construction using RDKit.</li>
+<li>Integrated outputs into a React-based visualization interface.</li>
+</ul>
+</div>
+
+<div class="project">
+<div class="project-title">Graph-based Research Paper Recommendation Engine</div>
+<ul>
+<li>Designed graph-based recommendation system using Graph Attention Networks.</li>
+<li>Built hybrid API ingestion and retrieval pipeline combining RDBMS metadata, Neo4j queries, and FAISS similarity search.</li>
+<li>Implemented user-interaction tracking for dynamic home-feed recommendations and cold-start suggestions.</li>
+</ul>
+</div>
+
+</section>
+
+<section class="section">
+<h2>Academic Profile</h2>
+<ul>
+<li><strong>Atlas Skilltech University</strong> — Bachelor of Technology (B.Tech) <br> July 2024 – June 2028</li>
+<li><strong>Maharashtra State Board</strong> — Higher Secondary Certificate (HSC) <br> July 2022 – June 2024</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Certifications / Courses</h2>
+<ul>
+<li>Harvard CS50 – edX</li>
+<li>Retrieval Augmented Generation (RAG) – Simplilearn</li>
+<li>Attention Mechanism in Deep Learning – Simplilearn</li>
+</ul>
+</section>
+
+</div>
+
+</body>
+</html>
